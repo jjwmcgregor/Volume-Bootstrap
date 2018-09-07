@@ -1,0 +1,162 @@
+/* GLOBAL */
+.bg-grey {
+  background: #e6e6e6;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-blue {
+  background:#6fb5e2;
+}
+
+/* NAVBAR */
+.navbar {
+  background:#6fb5e2;
+  font-size: 1.1em;
+  padding:20px;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  color:white;
+}
+
+.navbar li.active a {
+  color:#3d3d3d;
+}
+
+.navbar a:hover {
+  color:#3d3d3d;
+}
+
+.nav>li.what-we-do>a {
+  background: white;
+  color:#6fb5e2;
+}
+
+.nav>li>a:hover {
+  background: none;
+}
+
+.navbar-brand {
+  position: absolute;
+  top:0;
+  left:0;
+  margin-top: -19px;
+  margin-left: -15px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  height:500px;
+  position: relative;
+  margin-bottom: 0;
+  background: #8c8c8c
+}
+
+.jumbotron .controls {
+  position: absolute;
+  right:0;
+  bottom:0;
+  padding:10px;
+}
+
+.jumbotron .controls .btn{
+  padding:15px;
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+
+}
+
+/* WHO WE ARE / WHAT WE DO */
+.who-we-are {
+  opacity: .8;
+  transform:translateY(-100px);
+  padding:20px 20px 35px;
+}
+
+.who-we-are h1,
+.who-we-are h2,
+.who-we-are a {
+  color: #6fb5e2;
+}
+
+.who-we-are ul li {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.who-we-are h1 {
+  padding-bottom:30px;
+}
+
+.awards img {
+  width: 315px;
+  padding:30px;
+  background: none;
+}
+
+/* CAROUSEL */
+.carousel-container {
+  padding: 20px 0;
+}
+
+.carousel {
+  border: 1px solid #d2d2d2;
+  padding:20px;
+}
+
+.left.carousel-control,
+.right.carousel-control {
+  width:50px;
+  height:50px;
+  border:1px solid #d2d2d2;
+  color:grey;
+  background-image: none;
+  top:20px;
+  opacity: 1;
+}
+
+.left.carousel-control {
+  left: 0;
+  right: auto;
+  transform:translate(-25px,20px);
+  background: white;
+}
+.right.carousel-control {
+  right: 0;
+  left: auto;
+  transform:translate(25px,20px);
+  background: white;
+}
+
+.left.carousel-control a i,
+.right.carousel-control a i {
+  transform: translateY(-1px);
+}
+
+/* JUMBOTRON */
+
+/* SERVICES */
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  padding: 10px;
+  grid-gap: 5px;
+}
+.grid-item {
+  border: 1px solid black;
+  text-align: center;
+  color:white;
+  background: #24303a;
+}
+
+/* FORM */
+
+/* HP THUMBNAIL */
+
+/* FOOTER */
